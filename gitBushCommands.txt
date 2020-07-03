@@ -18,7 +18,7 @@ git log - to check the history of commits
 
 git push - to sync remote and local repositories
 
-git pull = get fetch + get merge - get changes from the remote repository#
+git pull = get fetch + get merge - get changes from the remote repository
 
 git gui - to open a portable graphical interface to Git
 
