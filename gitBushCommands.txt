@@ -1,0 +1,23 @@
+Git bash commands:
+
+cd /disk/folder/folder - to proceed to the required directory
+pwd - to check the current working directory
+
+git clone value - to clone with SSH
+
+git remote -v  = git remote --verbose - to check origin details 
+
+git status - to check the status of the files before the commit
+
+git add fileName.fileFormat - to add file to the commit
+git commit -m "comment"- to commit file with a comment
+
+git log - to check the history of commits
+
+git push - to sync remote and local  repositories
+
+
+Git bash hotkeys:
+
+shift+insert - to paste to the git bash from the clipboard
+ctrl+insert - to copy to the clipboard from the git bash
