@@ -24,6 +24,11 @@ git gui - to open a portable graphical interface to Git
 
 git gui& - to work with Git Bash and Git GUI at the same time
 
+gitk - to open the Git repository browser
+
+gitk& - to work with Git Bash and Git Repository Browser at the same time
+
+git --help - guess what:)
 
 
 
