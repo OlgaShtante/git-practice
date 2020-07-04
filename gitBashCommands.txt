@@ -18,7 +18,18 @@ git log - to check the history of commits
 
 git push - to sync remote and local repositories
 
-git pull = get fetch + get merge - get changes from the remote repository
+git pull = get fetch + get merge - to get changes from the remote repository
+
+git show - to see the last commit
+
+git show -s --pretty=raw atLeastFiveFirstSymbolsOfTheCommit, 
+e.g., git show -s --pretty=raw 98d56c - to see the tree and blob(s) of the commit
+
+git ls-tree atLeastFiveFirstSymbolsOfTheTree, 
+e.g., git ls-tree 5ce45d - to see the contents of the tree
+
+git show atLeastFiveFirstSymbolsOfTheBlob, 
+e.g., git show 271893 - to see the content of the blob
 
 git gui - to open a portable graphical interface to Git
 
