@@ -14,5 +14,9 @@
 
 #Ignore files in the directory
 directoryName
+/directoryName
+directoryName/
 
-#
+#Ignore specified files in the specified directory
+directoryName/*.fileFormat
+directoryName/**/*.fileFormat
