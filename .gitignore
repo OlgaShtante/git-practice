@@ -1,0 +1,18 @@
+#Ignore all pdf and doc(x) files
+*.docx
+*.doc
+*.pdf
+
+#Ignore all images
+*.jpeg
+*.jpg
+*.bmp
+
+#Ignore all log files except fileName.log
+*.log
+!fileName.log
+
+#Ignore files in the directory
+directoryName
+
+#

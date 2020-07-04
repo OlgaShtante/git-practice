@@ -47,6 +47,9 @@ git reset --soft/hard HEAD~numberOfHowManyCommitsNeedToBeRolledBack,
 e.g, git reset --soft HEAD~1 - to reset the last commit but leave changes in the index ('Staged Changes'),
 e.g, git reset --hard HEAD~1 - to reset the last commit and lose these changes forever o_O
 
+git revert atLeastFiveFirstSymbolsOfTheCommit,
+e.g.,git revert 98d56c - to revert the pushed commit;
+
 git gui - to open a portable graphical interface to Git;
 
 git gui& - to work with Git Bash and Git GUI at the same time;
@@ -64,3 +67,15 @@ Git bash hotkeys:
 shift+insert - to paste to the git bash from the clipboard;
 
 ctrl+insert - to copy to the clipboard from the git bash.
+
+
+
+Vi (visual editor) hotkeys:
+
+insert - to turn on editing mode
+
+esc - to turn off editing mode
+
+:wq - to write content and quit vi
+
+:q! - to quit vi
