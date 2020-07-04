@@ -1,55 +1,55 @@
 Git bash commands:
 
-cd /disk/folder/folder - to proceed to the required directory
+cd /disk/folder/folder - to proceed to the required directory;
 
-pwd - to check the current working directory
+pwd - to check the current working directory;
 
-git clone value - to clone with SSH
+git clone value - to clone with SSH;
 
-git remote -v  = git remote --verbose - to check origin details 
+git remote -v  = git remote --verbose - to check origin details; 
 
-git status - to check the status of the files before the commit
+git status - to check the status of the files before the commit;
 
-git add fileName.fileFormat - to add file to the commit
+git add fileName.fileFormat - to add file to the commit;
 
-git commit -m "comment"- to commit file with a comment
+git commit -m "comment"- to commit file with a comment;
 
-git log - to check the history of commits
+git log - to check the history of commits;
 
-git push - to sync remote and local repositories
+git push - to sync remote and local repositories;
 
-git pull = get fetch + get merge - to get changes from the remote repository
+git pull = get fetch + get merge - to get changes from the remote repository;
 
-git show - to see the last commit
+git show - to see the last commit;
 
 git show -s --pretty=raw atLeastFiveFirstSymbolsOfTheCommit, 
-e.g., git show -s --pretty=raw 98d56c - to see the tree and blob(s) of the commit
+e.g., git show -s --pretty=raw 98d56c - to see the tree and blob(s) of the commit;
 
 git ls-tree atLeastFiveFirstSymbolsOfTheTree, 
-e.g., git ls-tree 5ce45d - to see the contents of the tree
+e.g., git ls-tree 5ce45d - to see the contents of the tree;
 
 git show atLeastFiveFirstSymbolsOfTheBlob, 
-e.g., git show 271893 - to see the content of the blob
+e.g., git show 271893 - to see the content of the blob;
 
-git checkout -- fileName.fileFormat - to discard changes of the file in the working directory
+git checkout -- fileName.fileFormat - to discard changes of the file in the working directory;
 
 git checkout . - to discard all changes forever, doesn't work for new files >_< 
 
-git clean -xdf - to remove new files and directories from the working directory
+git clean -xdf - to remove new files and directories from the working directory;
 
-git reset -- fileName.fileFormat - to move updated file from the 'Staged Changes' to the 'Unstage Changes'
+git reset -- fileName.fileFormat - to move updated file from the 'Staged Changes' to the 'Unstage Changes';
 
 git reset HEAD~numberOfHowManyCommitsNeedToBeRolledBack,
- e.g, git reset HEAD~1 = git reset HEAD^ - to reset the last commit,
- git reset HEAD~2 = git reset HEAD^^ - to reset two last commit
+e.g, git reset HEAD~1 = git reset HEAD^ - to reset the last commit,
+git reset HEAD~2 = git reset HEAD^^ - to reset two last commit;
 
-git gui - to open a portable graphical interface to Git
+git gui - to open a portable graphical interface to Git;
 
-git gui& - to work with Git Bash and Git GUI at the same time
+git gui& - to work with Git Bash and Git GUI at the same time;
 
-gitk - to open the Git repository browser
+gitk - to open the Git repository browser;
 
-gitk& - to work with Git Bash and Git Repository Browser at the same time
+gitk& - to work with Git Bash and Git Repository Browser at the same time;
 
 git --help - guess what:)
 
@@ -57,6 +57,6 @@ git --help - guess what:)
 
 Git bash hotkeys:
 
-shift+insert - to paste to the git bash from the clipboard
+shift+insert - to paste to the git bash from the clipboard;
 
-ctrl+insert - to copy to the clipboard from the git bash
+ctrl+insert - to copy to the clipboard from the git bash.
