@@ -39,6 +39,10 @@ git clean -xdf - to remove new files and directories from the working directory
 
 git reset -- fileName.fileFormat - to move updated file from the 'Staged Changes' to the 'Unstage Changes'
 
+git reset HEAD~numberOfHowManyCommitsNeedToBeRolledBack,
+ e.g, git reset HEAD~1 = git reset HEAD^ - to reset the last commit,
+ git reset HEAD~2 = git reset HEAD^^ - to reset two last commit
+
 git gui - to open a portable graphical interface to Git
 
 git gui& - to work with Git Bash and Git GUI at the same time
