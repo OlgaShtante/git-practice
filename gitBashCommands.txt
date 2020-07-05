@@ -50,6 +50,12 @@ e.g., git reset --hard HEAD~1 - to reset the last commit and lose these changes 
 git revert atLeastFiveFirstSymbolsOfTheCommit,
 e.g., git revert 98d56c - to revert the pushed commit;
 
+git checkout -b branchName - to create a new branch and switch to it; 
+
+git checkout master - to switch back to the master branch;
+
+git merge branchName - to merge changes of the branchName with the current branch; 
+
 git gui - to open a portable graphical interface to Git;
 
 git gui& - to work with Git Bash and Git GUI at the same time;
