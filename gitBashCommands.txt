@@ -56,6 +56,12 @@ git checkout master - to switch back to the master branch;
 
 git merge branchName - to merge changes of the branchName with the current branch; 
 
+git merge --abort - to undo merge;
+
+git checkout --Xtheirs/Xours - to select which changes ( their or your) are more correct to be merged;
+
+git branch --all - to check the list of the branches;
+
 git gui - to open a portable graphical interface to Git;
 
 git gui& - to work with Git Bash and Git GUI at the same time;
