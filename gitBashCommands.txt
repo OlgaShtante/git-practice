@@ -8,6 +8,10 @@ git clone value - to clone with SSH;
 
 git remote -v  = git remote --verbose - to check origin details; 
 
+git remote remove originName - to remove remote origin;
+
+git remote add originName originUrl - to add remote origin;
+
 git status - to check the status of the files before the commit;
 
 git add fileName.fileFormat - to add file to the commit;
@@ -61,6 +65,19 @@ git merge --abort - to undo merge;
 git checkout --Xtheirs/Xours - to select which changes ( their or your) are more correct to be merged;
 
 git branch --all - to check the list of the branches;
+
+git tag tagName - to add a tag to the last commit;
+
+git tag --list - to check which tags you have;
+
+git push --tags - to push tags;
+
+git stash save "description" - to save local modifications and current state of the working directory & the index;
+
+git stash list - to see stashes;
+
+git stash apply stashName,
+e.g., git stash apply stash@{0} -  to remove modifications from the stash;
 
 git gui - to open a portable graphical interface to Git;
 
