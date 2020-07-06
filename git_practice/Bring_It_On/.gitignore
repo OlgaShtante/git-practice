@@ -1,4 +1,4 @@
-#To ignore file formats
+#Ignore the following file formats
 .db
 .log
 
