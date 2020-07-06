@@ -1,0 +1,7 @@
+#To ignore file formats
+.db
+.log
+
+#To ignore directories
+target/
+bin/
