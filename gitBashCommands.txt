@@ -17,6 +17,7 @@ git status - to check the status of the files before the commit;
 git add fileName.fileFormat - to add file to the commit;
 
 git commit -m "comment"- to commit file with a comment;
+git commit --amend -m "New message" and then git push -f origin branch name - to update the latest commit message
 
 git log - to check the history of commits;
 
