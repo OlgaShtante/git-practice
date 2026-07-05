@@ -1,6 +1,7 @@
 <h1><img src="https://cdn.simpleicons.org/git/F05032" width="26" align="center" alt="Git"/> Git Command Cheat Sheet</h1>
 
-A personal, no-nonsense reference for everyday Git, plus a few plumbing commands most people never learn.
+A personal, no-nonsense reference for everyday Git, plus a few [plumbing commands](https://craftquest.io/guides/git/how-git-works/the-plumbing) most people never learn.
+
 📖 Deep dive: [Pro Git book](https://git-scm.com/book/en/v2)
 
 ## 🧭 Navigation
